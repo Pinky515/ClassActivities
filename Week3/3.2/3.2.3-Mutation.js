@@ -22,10 +22,16 @@ a = 0;
 b = false;
 // c = null;
 // using BRACKET NOTATION, assign a value to b
+b["1"] = 1;
+b["1"];
 b[1];
+
 console.log(b);
+//bracket notation is not working
+console.log("-------------------------------------------");
 // using DOT NOTATION, assign a PROPERTY to c
 c.name = "theNameOfC";
+console.log(c.name);
 // using DOT NOTATION, assign a METHOD to c
 c.addSomething = () => {
   return c.name + " be doing stuff.";

@@ -7,7 +7,7 @@ console.log("Hello, world" === "Hello, world"); //true
 let x = false;
 let y = x;
 console.log(x === y); //true
-x = !x;
+x = !x; //false
 console.log(x === y); //false
 
 console.log([1, 2, "c"] === [1, 2, "c"]); //true.... actually false because they can be in two diff objects
@@ -17,4 +17,4 @@ y = { id: 1 };
 x = y;
 console.log(x === y); //true
 y.id += 1;
-console.log(x.id === y.id); //true
+console.log(x.id === y.id); //true - i dont understand this one.
