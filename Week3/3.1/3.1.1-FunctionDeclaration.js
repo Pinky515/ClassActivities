@@ -17,7 +17,7 @@ function threeModTwo() {
   console.log(3 % 2);
 }
 
-threeModTwo;
+threeModTwo();
 
 // let age = 18;
 // const checkDrivingAge = function() {

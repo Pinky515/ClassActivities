@@ -7,6 +7,8 @@ function myNumberFunction() {
   console.log(num);
 }
 
+console.log (myNumberFunction);
 // now, invoke the myNumberFunction function
-
+myNumberFunction();
 // print just the function of console.log (no invocation)
+console.log(console.log);
