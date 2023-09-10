@@ -13,7 +13,7 @@ console.log(addNumbersFrom1To100());
 let invokedTotal = addNumbersFrom1To100();
 console.log(invokedTotal);
 // try to print the variable "total" outside the function
-// ? what do you expect ? undefined
+// ? what do you expect ? not defined
 // console.log(total);
 // examine the code below,
 
@@ -24,7 +24,7 @@ console.log("--------------------------------------------");
 const childVariable = "I am in the child's scope";
 
 function childScope(param) {
-//   const childVariable = "I am in the child's scope";
+  const childVariable = "I am in the child's scope";
   console.log("Child Scope, Parent Variable:", param);
   console.log("Child Scope, Child Variable:", childVariable);
 }

@@ -29,7 +29,14 @@ function weLoveDogsRP (dogName1, dogName2, ...dogName3) {
 weLoveDogsRP (1, 2, 3, 4, 5);
 console.log("Printed weLoveDogsRP function");
 console.log (weLoveDogs(1, 2, 3, 4, 5));
-let weLoveDogsRPVariable = weLoveDogsRP(1, 2, 3, 4, 5);
+//i dont understand why it didnt print 
+//1
+//2
+//[3, 4, 5]
+
 
 console.log("Printed weLoveDogsRP variable");
-console.log(weLoveDogsRPVariable);
+let weLoveDogsRPVariable = weLoveDogsRP(1, 2, 3, 4, 5);
+
+
+// console.log(weLoveDogsRPVariable);
