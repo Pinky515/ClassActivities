@@ -1,0 +1,56 @@
+/* Add some styling to your bio / portfolio HTML. You may need to add new HTML elements or attributes.
+Include the following types of CSS selectors:
+class & id selectors
+chain a class selector onto a element selector
+group two or more selectors
+select all the child list items from one of your lists
+select an element that is a sibling of another element
+Explore the Box Model by including the following CSS rules:
+use the universal selector to give all elements a border
+add padding and margin on some elements
+add padding and margin only on certain sides of some elements
+Using pseudo-classes, have at least one element change color when someone hovers over it */
+
+* {
+  border: solid 2px slateblue;
+}
+
+body {
+  background-color: salmon;
+  align: center;
+}
+
+img {
+  border-radius: 20%;
+  width: 300px;
+  margin: 0;
+}
+
+.away {
+  color: #091294;
+  font-weight: bolder;
+}
+
+.towards {
+  color: purple;
+  font-weight: bolder;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+a:active {
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
