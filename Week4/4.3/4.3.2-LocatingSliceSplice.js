@@ -13,7 +13,7 @@ console.log(indexOfC);
 
 // find the last index of "a", "b", and "c"
 let lastIndexOfA = arr.lastIndexOf(a);
-console.log(lastindexOfA);
+console.log(lastIndexOfA);
 let lastIndexOfB = arr.lastIndexOf(b);
 console.log(lastIndexOfB);
 let lastIndexOfC = arr.lastIndexOf(c);
